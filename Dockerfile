@@ -3,7 +3,7 @@ MAINTAINER Cristián Rojas
 
 RUN apk add --update python python-dev py-pip build-base git
 RUN pip install Django
-RUN git clone https://bitbucket.org/jsthyer/djangosca.git /djangosca
+RUN git clone https://bitbucket.org/injcristianrojas/djangosca.git /djangosca
 
 WORKDIR /workdir
 
