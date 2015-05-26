@@ -1,6 +1,5 @@
-# RUN with docker run --rm -it -v ${PWD}:/workdir:rw djangosca
-
 FROM alpine:3.1
+MAINTAINER Cristián Rojas
 
 RUN apk add --update python python-dev py-pip build-base git
 RUN pip install Django
